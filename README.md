@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Intelli-Credit | Next-Gen Corporate Credit Appraisal
 
-## Getting Started
+**Bridging the Intelligence Gap in Corporate Lending with AI-Powered Synthesis.**
 
-First, run the development server:
+Intelli-Credit is a high-technology prototype designed for the **Intelli-Credit Challenge**. It solves the "Data Paradox" in corporate lending by automating the creation of Comprehensive Credit Appraisal Memos (CAM).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Key Modules
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 1. The Data Whisperer (Ingestion)
+Automatically synthesizes structured data (GST, ITR, Bank Statements) and detects financial anomalies like circular trading and revenue inflation.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 2. The Digital Credit Manager (Research)
+An AI agent that performs real-time secondary research, scanning for:
+- **Promoter Monitoring**: Industry reputation and news sentiment.
+- **Litigation Search**: Real-time checks on e-Courts and NCLT.
+- **MCA Filings**: Automated verification of corporate registry data.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 3. Advanced Risk Simulation
+Interactive tools for credit officers to stress-test lending decisions:
+- **Risk Heatmap**: Multi-variate Likelihood vs. Impact matrix.
+- **Shock Resilience**: Financial sensitivity analysis (Interest rate & Revenue shocks).
+- **Monte Carlo Simulations**: Probability of default modeling.
 
-## Learn More
+### 4. Qualitative Site Visit Portal
+Integration of site visit field notes into the 5Cs (Character, Capacity, Capital, Collateral, Conditions) framework for a holistic risk score.
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tech Stack
+- **Framework**: [Next.js 14+](https://nextjs.org/) (App Router)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) (Glassmorphism design system)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📸 Preview
+*Note: Include your screenshots here by uploading them to the GitHub repo or using static paths.*
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🏁 Getting Started
 
-## Deploy on Vercel
+1. **Clone the Repo**:
+   ```bash
+   git clone https://github.com/GiriPrasathGA/Intelli-Credit-Core.git
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Run the Dev Server**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Visit**: `http://localhost:3000`
+
+---
+Built for the **Intelli-Credit Hackathon Challenge**.
